@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 09: Android Service</string>
+    <string name="title_service">Android Service Lifecycle</string>
+    <string name="subtitle_service">Observe onStartCommand() &amp; onDestroy() in Logcat</string>
+    <string name="btn_start_service">Start Service</string>
+    <string name="btn_stop_service">Stop Service</string>
+    <string name="label_service_idle">Status: Service is STOPPED</string>
+</resources>

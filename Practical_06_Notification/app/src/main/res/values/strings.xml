@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 06: Notification</string>
+    <string name="title_notification">Android Notification System</string>
+    <string name="subtitle_notification">Channels, PendingIntent &amp; NotificationCompat</string>
+    <string name="btn_create_notification">Trigger Notification</string>
+    <string name="title_detail">Notification Details</string>
+    <string name="subtitle_detail">Activity opened via Notification PendingIntent</string>
+    <string name="btn_back_main">Back to Main Activity</string>
+</resources>

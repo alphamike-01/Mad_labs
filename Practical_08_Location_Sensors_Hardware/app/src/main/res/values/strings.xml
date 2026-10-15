@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 08: Hardware &amp; Sensors</string>
+    <string name="title_hw">Location, Sensors &amp; Native Hardware</string>
+    <string name="subtitle_hw">LocationManager, SensorManager &amp; Hardware Peripherals</string>
+    <string name="btn_get_location">Get Current Location</string>
+    <string name="btn_test_vibration">Trigger Haptic Vibration</string>
+    <string name="btn_toggle_torch">Toggle Flashlight</string>
+</resources>

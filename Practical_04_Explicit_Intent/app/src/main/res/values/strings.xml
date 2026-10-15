@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 04: Explicit Intent</string>
+    <string name="title_main">Main Activity (Sender)</string>
+    <string name="subtitle_main">Navigate and pass String &amp; Integer extras</string>
+    <string name="hint_student_name">Enter Student Name (String)</string>
+    <string name="hint_student_roll">Enter Roll Number / Age (Integer)</string>
+    <string name="btn_send_data">Send Data to Second Activity</string>
+    <string name="title_second">Second Activity (Receiver)</string>
+    <string name="subtitle_second">Received Intent Extras</string>
+    <string name="btn_back">Back to Main Activity</string>
+    <string name="action_switch">Switch to Second Activity</string>
+    <string name="action_back">Return to Main Activity</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 10: Phone Contacts</string>
+    <string name="title_contacts">Phonebook Contacts</string>
+    <string name="subtitle_contacts">Fetch contacts from device using ContentResolver</string>
+    <string name="btn_fetch_contacts">Fetch Contacts</string>
+    <string name="label_permission_denied">Permission to read contacts was denied. Please grant permission to view phone contacts.</string>
+    <string name="label_no_contacts">No contacts found in device phonebook.</string>
+</resources>

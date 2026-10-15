@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 12: REST API</string>
+    <string name="title_api">Enterprise REST API Client</string>
+    <string name="subtitle_api">HTTP Networking via HttpURLConnection &amp; JSON Parsing</string>
+    <string name="hint_post_id">Enter Post ID (1 - 100)</string>
+    <string name="btn_fetch">Fetch Data from API</string>
+    <string name="btn_retry">Retry Request</string>
+    <string name="label_initial_state">Tap 'Fetch Data' to load content from the cloud REST endpoint.</string>
+</resources>

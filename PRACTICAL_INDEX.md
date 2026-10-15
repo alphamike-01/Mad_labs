@@ -1,0 +1,23 @@
+# Practical Index Matrix
+
+A detailed reference mapping every practical number to its exact curriculum aim, directory name, package namespace, entry Activity, and Android APIs utilized.
+
+| Practical # | Official Aim | Folder Name | Java Package | Launcher Activity | Core Android APIs Used |
+|:---:|---|---|---|---|---|
+| **03** | To design a simple user interface using linear layout / constraints layout, textview, editview, button and imageview. add drawable resources and an options menu with a settings item. | `Practical_03_UI_Design` | `com.example.practical03` | `MainActivity.java` | `ConstraintLayout`, `TextView`, `EditText`, `Button`, `ImageView`, `VectorDrawable`, `StateListDrawable`, `Menu`, `MenuItem`, `AlertDialog` |
+| **04** | to implement navigation between two android activities using explicit intent, add an options menu for switching between activities and pass date using intent extras (string and integer) | `Practical_04_Explicit_Intent` | `com.example.practical04` | `MainActivity.java` | `Intent`, `putExtra()`, `getStringExtra()`, `getIntExtra()`, `Menu`, `MenuItem`, Activity Back Stack (`finish()`) |
+| **05** | To perform a background computation (Prime Number checking) using Executor Service and update after the task is completed. | `Practical_05_Prime_Number_ExecutorService` | `com.example.practical05` | `MainActivity.java` | `java.util.concurrent.ExecutorService`, `Executors.newSingleThreadExecutor()`, `Handler`, `Looper.getMainLooper()`, `ProgressBar` |
+| **06** | To create a simple Android Notification with a title, body and small icon and implement a top action that opens another activity when the notification is clicked. | `Practical_06_Notification` | `com.example.practical06` | `MainActivity.java` | `NotificationManager`, `NotificationChannel`, `NotificationCompat.Builder`, `PendingIntent`, `POST_NOTIFICATIONS` runtime permission |
+| **07** | TO create a custom Broadcast receiver in Android that listens for custom broadcast and the receiver displays a Toast message and writes a logcat message when the broadcast is received. | `Practical_07_Broadcast_Receiver` | `com.example.practical07` | `MainActivity.java` | `BroadcastReceiver`, `IntentFilter`, `ContextCompat.registerReceiver(RECEIVER_NOT_EXPORTED)`, `sendBroadcast()`, `Log.d()`, `Toast` |
+| **08** | location awareness/ sensor + native hardwar access | `Practical_08_Location_Sensors_Hardware` | `com.example.practical08` | `MainActivity.java` | `LocationManager`, `LocationListener`, `SensorManager`, `SensorEventListener` (Accelerometer), `Vibrator` / `VibrationEffect`, `CameraManager` (Torch/Flashlight), `BatteryManager` |
+| **09** | To create an Android Service, Start and stop it using buttons and observe the lifecycle methods (onStart () and onDestroy () ) in logcat. | `Practical_09_Android_Service` | `com.example.practical09` | `MainActivity.java` | `android.app.Service`, `onStartCommand()`, `onDestroy()`, `startService()`, `stopService()`, `Log.d()`, background worker thread |
+| **10** | To create contacts from phone: Develop an application that fetches all contacts from phonebook and displays on screen. | `Practical_10_Phone_Contacts` | `com.example.practical10` | `MainActivity.java` | `ContentResolver`, `ContactsContract.CommonDataKinds.Phone`, `Cursor`, `READ_CONTACTS` permission, `RecyclerView`, `ViewHolder` |
+| **11** | Develop an application that accepts a number from user and then dynamically generates accepted number of items in another activity. | `Practical_11_Dynamic_Views` | `com.example.practical11` | `MainActivity.java` | Programmatic View Instantiation, `ViewGroup.LayoutParams`, `ScrollView`, `DisplayMetrics`, Intent Data Transfer |
+| **12** | enterprise data access via internet (REST API) | `Practical_12_REST_API` | `com.example.practical12` | `MainActivity.java` | `android.permission.INTERNET`, `HttpURLConnection`, `ExecutorService`, `org.json.JSONObject`, `Handler`, UI State Machine |
+| **13** | Graphics and custom views + canvas | `Practical_13_Custom_Graphics_Canvas` | `com.example.practical13` | `MainActivity.java` | Custom `View` Subclass, `Canvas` (`drawRoundRect`, `drawCircle`, `drawLine`, `drawArc`, `drawText`), `Paint`, `onTouchEvent`, `invalidate()` |
+| **14** | Animation + Multimedia (Audio Playback) | `Practical_14_Animation_Audio` | `com.example.practical14` | `MainActivity.java` | `android.media.MediaPlayer`, `res/raw/sample_chime.wav`, `android.animation.ObjectAnimator`, `ViewPropertyAnimator`, `LinearInterpolator` |
+
+---
+
+## 📌 Missing Practical Notice
+Practicals **1** and **2** remain unsupplied from the curriculum. They are intentionally ungenerated to preserve standard numbering. Refer to [MISSING_AIMS.md](MISSING_AIMS.md).

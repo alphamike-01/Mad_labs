@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 07: Broadcast Receiver</string>
+    <string name="title_broadcast">Custom Broadcast Receiver</string>
+    <string name="subtitle_broadcast">Inter-component messaging with Toast &amp; Logcat</string>
+    <string name="hint_broadcast_message">Enter custom message to broadcast</string>
+    <string name="btn_send_broadcast">Send Custom Broadcast</string>
+    <string name="btn_register_receiver">Register Receiver</string>
+    <string name="btn_unregister_receiver">Unregister Receiver</string>
+</resources>

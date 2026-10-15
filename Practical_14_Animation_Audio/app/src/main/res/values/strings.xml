@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 14: Animation &amp; Audio</string>
+    <string name="title_anim_audio">Animation &amp; Multimedia</string>
+    <string name="subtitle_anim_audio">ObjectAnimator &amp; MediaPlayer Audio Playback</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_stop">Stop / Reset</string>
+    <string name="label_audio_status">Status: Idle</string>
+</resources>

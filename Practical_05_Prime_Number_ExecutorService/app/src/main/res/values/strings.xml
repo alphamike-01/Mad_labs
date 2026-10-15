@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 05: Prime Checker</string>
+    <string name="title_prime">Prime Number Checker</string>
+    <string name="subtitle_prime">Background computation with Java ExecutorService</string>
+    <string name="hint_number">Enter an integer (e.g. 104729)</string>
+    <string name="btn_check_prime">Check Prime in Background</string>
+    <string name="label_status_idle">Ready. Enter a number to test.</string>
+</resources>

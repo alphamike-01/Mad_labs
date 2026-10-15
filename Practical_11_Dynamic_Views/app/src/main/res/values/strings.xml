@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 11: Dynamic Views</string>
+    <string name="title_input">Dynamic Item Generator</string>
+    <string name="subtitle_input">Enter item count to dynamically instantiate UI cards</string>
+    <string name="hint_count">Enter number of items (e.g. 5, 10)</string>
+    <string name="btn_generate">Generate Items in Second Activity</string>
+    <string name="title_display">Generated Items Activity</string>
+    <string name="subtitle_display">Dynamically generated layout views</string>
+    <string name="btn_back">Back to Generator</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical 13: Canvas Graphics</string>
+    <string name="title_canvas">Custom Views &amp; 2D Canvas</string>
+    <string name="subtitle_canvas">Geometric primitives, Paint styles &amp; touch interaction</string>
+    <string name="btn_toggle_mode">Toggle Drawing Style</string>
+    <string name="btn_reset_canvas">Reset View</string>
+</resources>
